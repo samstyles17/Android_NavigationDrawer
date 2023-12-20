@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/baseline_insert_photo_24"
+        android:title="Photo Gallery"/>
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/baseline_message_24"
+        android:title="Message"/>
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Favorites"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/baseline_edit_24"
+        android:title="Edit Profile"/>
+
+    </group>
+
+<!--    <item android:title="Profile">-->
+<!--        <menu>-->
+<!--            <group>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_login"-->
+<!--                android:icon="@drawable/baseline_login_24"-->
+<!--                android:title="Login"/>-->
+<!--            </group>-->
+<!--        </menu>-->
+
+<!--    </item>-->
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <group>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/baseline_share_24"-->
+<!--                android:title="Share"/>-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_rate"-->
+<!--                android:icon="@drawable/baseline_rate_review_24"-->
+<!--                android:title="Rating"/>-->
+
+<!--            </group>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
